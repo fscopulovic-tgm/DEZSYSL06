@@ -1,0 +1,11 @@
+<list>
+  <windpark.Windkraftanlage>
+    <name>Parkanlage 1;Windkraftanlage 1</name>
+    <aktStrom>1519473</aktStrom>
+    <blindstrom>0</blindstrom>
+    <windgesch>12</windgesch>
+    <drehzahl>58</drehzahl>
+    <temp>29</temp>
+    <blattpos>295</blattpos>
+  </windpark.Windkraftanlage>
+</list>
