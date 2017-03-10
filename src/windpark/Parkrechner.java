@@ -119,10 +119,13 @@ public class Parkrechner {
         producer.setDeliveryMode(DeliveryMode.PERSISTENT );
 
         // Create the message
+        // Fürs debugen
         System.out.println("\nVor dem Senden" + this.xml);
         TextMessage message = session.createTextMessage(this.xml);
+        // Fürs debugen
         System.out.println("\nNachdem die Message erstellt wurde:\n" + message.getText());
         producer.send(message);
+        // Fürs debugen
         System.out.println("Gesendete Message: " + message.getText());
         connection.stop();
 
@@ -131,6 +134,7 @@ public class Parkrechner {
         connection.close();
     }
 
+    //Wird später gebraucht
     public void getNotification() throws Exception {
         ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(user, password, url);
         Connection connection = connectionFactory.createConnection();

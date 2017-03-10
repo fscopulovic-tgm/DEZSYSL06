@@ -28,6 +28,8 @@ public class TestClass {
         }
 
         Zentralrechner zr = new Zentralrechner(parkanlagen);
+
+        // Noch ein Parkrechner, zudem hat es auch das mit dem Meldungen, das alles fertig ist
         /*for(int i = 6060; i < 6061; i++) {
             new ServerApplication(i);
             parks.add(i);

@@ -24,6 +24,7 @@ public class Zentralrechner {
         this.xml = "";
         try {
             this.parkrechnerliste.add(parks[0]);
+            //Wird später wiedereingefügt
             /*this.addParkrechner(parks[0]);
             this.addParkrechner(parks[1]);
             this.getParkrechner();*/
@@ -34,6 +35,7 @@ public class Zentralrechner {
         }
     }
 
+    //Wird später wieder eingefügt
     /*public void addParkrechner(String parkrechner) throws Exception {
         PrintWriter out = new PrintWriter("parkconfig.txt");
         for(String park : this.parkrechnerliste)
